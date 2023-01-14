@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="tomlj" type="repository">
+    <properties maven-id="org.tomlj:tomlj:1.1.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/tomlj/tomlj/1.1.0/tomlj-1.1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.11.1/antlr4-runtime-4.11.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.21.2/checker-qual-3.21.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
