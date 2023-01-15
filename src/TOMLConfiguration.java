@@ -7,6 +7,12 @@ import java.util.List;
 import java.util.Map;
 
 public class TOMLConfiguration implements Configuration {
+    /**
+     * Getting config file
+     * @param path
+     * @return
+     * @throws IOException
+     */
     public Map<String, List> parseConfig(String path) throws IOException {
         File file = new File(path);
         Toml toml = new Toml().read(file);
@@ -16,6 +22,9 @@ public class TOMLConfiguration implements Configuration {
     }
 
     private Map<String, List> parseDevices(Toml data) {
+        /**
+         * List of devices
+         */
         Map<String, List> devices = new HashMap<>();
         devices.put("computers", parseObject(data, "devices.computers"));
         devices.put("switches", parseObject(data, "devices.switches"));
@@ -26,6 +35,9 @@ public class TOMLConfiguration implements Configuration {
     }
 
     private List<Object> parseObject(Toml data, String key) {
+        /**
+         * Parsing the device
+         */
         List<Object> objectList = new ArrayList<>();
         List<Toml> objects = data.getTables(key);
         for (Toml object: objects) {
