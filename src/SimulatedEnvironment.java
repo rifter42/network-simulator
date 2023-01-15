@@ -3,6 +3,9 @@ import java.util.List;
 import java.util.Map;
 
 public class SimulatedEnvironment {
+    /**
+     * Implementation of SimulatedEnvironment
+     */
     public void startSimulation() {
         try {
             Map<String, List> config = new ConfigurationFactory().loadConfig("config.toml");
