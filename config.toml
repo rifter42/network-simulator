@@ -10,3 +10,15 @@
 [[devices.routers]]
     mac = "06-5D-EE-06-18-BB"
     ip = "10.10.0.1"
+[[connections]]
+    type = "cabled"
+    macFrom="06-5D-EE-06-18-8A"
+    macTo="06-5D-EE-06-18-AA"
+[[connections]]
+    type = "cabled"
+    macFrom="06-5D-EE-06-18-8B"
+    macTo="06-5D-EE-06-18-AA"
+[[events]]
+    type = "ping"
+    source = "06-5D-EE-06-18-8A"
+    dest = "06-5D-EE-06-18-8B"
