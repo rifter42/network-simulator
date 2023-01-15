@@ -6,6 +6,5 @@ public class Main {
     public static void main(String[] args) {
         SimulatedEnvironment env = new SimulatedEnvironment();
         env.startSimulation();
-
     }
 }
