@@ -6,8 +6,7 @@
     mac = "06-5D-EE-06-18-8B"
     ip = "10.10.0.200"
 [[devices.switches]]
-    [devices.switches.1]
-        mac = "06-5D-EE-06-18-AA"
+    mac = "06-5D-EE-06-18-AA"
 [[devices.routers]]
-    [devices.routers.1]
-        ip = "10.10.0.1"
+    mac = "06-5D-EE-06-18-BB"
+    ip = "10.10.0.1"

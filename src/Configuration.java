@@ -1,6 +1,7 @@
 import java.io.IOException;
 import java.util.List;
+import java.util.Map;
 
 interface Configuration {
-    List<Computer> parseConfig(String path) throws IOException;
+    Map<String, List> parseConfig(String path) throws IOException;
 }

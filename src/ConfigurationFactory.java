@@ -1,8 +1,9 @@
 import java.io.IOException;
 import java.util.List;
+import java.util.Map;
 
 public class ConfigurationFactory {
-    public List<Computer> loadConfig(String path) throws IOException {
+    public Map<String, List> loadConfig(String path) throws IOException {
         if (path.contains(".toml")) {
             return new TOMLConfiguration().parseConfig(path);
         }
