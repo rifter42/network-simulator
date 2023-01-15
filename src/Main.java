@@ -16,7 +16,7 @@ public class Main {
             if(EventHandler.ping(IP1, IP2)){
                 int n = 5;
                 for (int i = 1; i <= n; ++i) {
-                    System.out.println("64 bytes from " + IP2 + " : icmp_seq=1 ttl=57 time=5.29 ms");
+                    System.out.println("64 bytes from " + IP2 + " : icmp_seq=" + i + " ttl=57 time=5.29 ms");
                 }
             }
 
